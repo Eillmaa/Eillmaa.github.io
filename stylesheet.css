@@ -1,4 +1,16 @@
 nav {
   display: flex;
   flex-direction: row;
+  background-color: rgb(153, 232, 248);
+  justify-content: center;
+  border: solid rgb(153, 232, 248);
+}
+.navbar {
+  padding: 10px;
+  font-size: large;
+  transition: font-size 0.1s, transform 0.1s;
+}
+.navbar:hover {
+  font-size: larger;
+  transform: scale(1.2);
 }
