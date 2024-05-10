@@ -2,37 +2,68 @@ body {
   display: grid;
   grid-template-columns: auto 0px;
 }
-nav {
-  display: flex;
-  flex-direction: row;
+
+#navibar {
+  padding: 60px 10px;
+  transition: 0.5s;
+  /* So that it's at the top */
+  top: 0;
+  width: 100%;
   background-color: rgb(159, 215, 255);
-  justify-content: center;
   border: solid rgb(159, 215, 255);
+  position: sticky;
 }
-.navbar {
-  padding: 10px;
+
+/* Display the links to the right */
+nav {
+  float: right;
+}
+
+nav a {
+  float: left;
+  padding: 5px;
+  text-align: center;
   font-size: large;
   transition: font-size 0.1s, transform 0.1s;
   text-decoration: none;
+  text-align: center;
 }
-.navbar:hover {
+
+/* When user hover's their mouse over the text it increase in size a bit */
+nav a:hover {
   font-size: larger;
   transform: scale(1.2);
 }
-.top {
+
+@media screen and (max-width: 590px) {
+  #navibar {
+    padding: 20px 5px !important;
+  }
+  #navibar a {
+    display: block;
+    text-align: left;
+    float: none;
+  }
+  nav {
+    float: none;
+  }
+}
+
+.btt {
   text-decoration: none;
-  color: #fff;
+  color: white;
   background: rgb(159, 215, 255);
   font-size: larger;
-  --offset: 50px;
+  /*Here I made it so that after the user scrolls a 100px display the back to top option */
+  --offset: 100px;
+  margin-top: calc(100vh + var(--offset));
   position: sticky;
   place-self: end;
+  white-space: nowrap;
   bottom: 20px;
   margin-right: 10px;
-  margin-top: calc(100vh + var(--offset));
   padding: 9px 18px 10px;
-  border-radius: 50%;
-  white-space: nowrap;
+  border-radius: 25%;
 }
 
 html,
