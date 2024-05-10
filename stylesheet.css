@@ -1,16 +1,41 @@
+body {
+  display: grid;
+  grid-template-columns: auto 0px;
+}
 nav {
   display: flex;
   flex-direction: row;
-  background-color: rgb(153, 232, 248);
+  background-color: rgb(159, 215, 255);
   justify-content: center;
-  border: solid rgb(153, 232, 248);
+  border: solid rgb(159, 215, 255);
 }
 .navbar {
   padding: 10px;
   font-size: large;
   transition: font-size 0.1s, transform 0.1s;
+  text-decoration: none;
 }
 .navbar:hover {
   font-size: larger;
   transform: scale(1.2);
+}
+.top {
+  text-decoration: none;
+  color: #fff;
+  background: rgb(159, 215, 255);
+  font-size: larger;
+  --offset: 50px;
+  position: sticky;
+  place-self: end;
+  bottom: 20px;
+  margin-right: 10px;
+  margin-top: calc(100vh + var(--offset));
+  padding: 9px 18px 10px;
+  border-radius: 50%;
+  white-space: nowrap;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
 }
