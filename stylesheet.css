@@ -4,7 +4,7 @@ body {
 }
 
 #navibar {
-  padding: 60px 10px;
+  padding: 60px 0px;
   transition: 0.5s;
   /* So that it's at the top */
   top: 0;
@@ -20,7 +20,7 @@ nav {
 
 nav a {
   float: left;
-  padding: 5px;
+  padding: 10px 20px;
   text-align: center;
   font-size: large;
   transition: font-size 0.1s, transform 0.1s;
