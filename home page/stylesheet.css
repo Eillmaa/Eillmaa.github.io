@@ -1,6 +1,6 @@
 body {
   display: grid;
-  grid-template-columns: auto 0px;
+  /* grid-template-columns: auto 0px; */
 }
 
 #navibar {
@@ -9,8 +9,7 @@ body {
   /* So that it's at the top */
   top: 0;
   width: 100%;
-  background-color: rgb(159, 215, 255);
-  border: solid rgb(159, 215, 255);
+  background-color: black;
   position: sticky;
 }
 
@@ -27,6 +26,7 @@ nav a {
   transition: font-size 0.1s, transform 0.1s;
   text-decoration: none;
   text-align: center;
+  color: white;
 }
 
 /* When user hover's their mouse over the text it increase in size a bit */
@@ -52,7 +52,7 @@ nav a:hover {
 .btt {
   text-decoration: none;
   color: white;
-  background: rgb(159, 215, 255);
+  background: rgb(54, 93, 179);
   font-size: larger;
   /*Here I made it so that after the user scrolls a 100px display the back to top option */
   --offset: 100px;
