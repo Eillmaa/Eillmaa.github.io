@@ -23,7 +23,7 @@ nav a {
   padding: 10px 20px;
   text-align: center;
   font-size: large;
-  transition: font-size 0.1s, transform 0.1s;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: none;
   text-align: center;
   color: white;
