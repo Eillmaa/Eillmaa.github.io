@@ -1,6 +1,5 @@
 body {
   display: grid;
-  /* grid-template-columns: auto 0px; */
   background-color: black;
 }
 
@@ -12,7 +11,7 @@ body {
   left: 0;
   right: 0;
   width: 100%;
-  background-color: black;
+  background-color: rgb(14, 14, 14);
   position: sticky;
   /* Used flexbox to display the navigation bar more neatly */
   display: flex;
@@ -38,33 +37,17 @@ nav a:hover {
   transform: scale(1.2);
 }
 
-@media screen and (max-width: 590px) {
-  #navibar {
-    padding: 20px 5px !important;
-  }
-  #navibar a {
-    display: block;
-    text-align: left;
-    float: none;
-  }
-  nav {
-    float: none;
-  }
-}
-
 .btt {
   text-decoration: none;
-  color: white;
-  background: rgb(54, 93, 179);
+  color: black;
+  background: white;
   font-size: larger;
-  /*Here I made it so that after the user scrolls a 100px display the back to top option */
-  --offset: 100px;
   margin-top: calc(100vh + var(--offset));
   position: sticky;
   place-self: end;
   white-space: nowrap;
   bottom: 20px;
-  margin-right: 10px;
+  margin-right: 15px;
   padding: 9px 18px 10px;
   border-radius: 25%;
 }
@@ -72,4 +55,24 @@ nav a:hover {
 html,
 body {
   scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#vids {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.demo1 {
+  width: 85%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.demo2 {
+  width: 85%;
 }
