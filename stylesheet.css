@@ -61,6 +61,52 @@ body {
   padding: 0;
 }
 
+#elnav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 20px;
+  top: 30%;
+  z-index: 100;
+  transition: 0.5s;
+}
+
+#elnav a {
+  text-decoration: none;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px 0px 10px;
+}
+
+#anemo:hover {
+  color: rgb(104, 170, 133);
+  transform: scale(1.1);
+}
+#hydro:hover {
+  color: rgb(47, 86, 145);
+  transform: scale(1.1);
+}
+#pyro:hover {
+  color: rgb(178, 83, 83);
+  transform: scale(1.1);
+}
+#dendro:hover {
+  color: rgb(58, 156, 79);
+  transform: scale(1.1);
+}
+#geo:hover {
+  color: rgb(219, 199, 99);
+  transform: scale(1.1);
+}
+#electro:hover {
+  color: rgb(133, 91, 185);
+  transform: scale(1.1);
+}
+#cryo:hover {
+  color: rgb(148, 246, 238);
+  transform: scale(1.1);
+}
+
 #vids {
   display: flex;
   flex-direction: column;
@@ -75,4 +121,9 @@ body {
 
 .demo2 {
   width: 85%;
+}
+.elements {
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
