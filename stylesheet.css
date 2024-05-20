@@ -78,33 +78,34 @@ body {
   padding: 10px 0px 10px;
 }
 
-#anemo:hover {
-  color: rgb(104, 170, 133);
+/* Here I amde it so that when the user hovers over the right side 
+navigation bar the opacity turns from 0.5 to its orginal opacity */
+#elnav img {
+  opacity: 0.5;
+}
+
+#elnav img:hover {
+  opacity: 1;
   transform: scale(1.1);
 }
-#hydro:hover {
-  color: rgb(47, 86, 145);
-  transform: scale(1.1);
+
+#heading1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-#pyro:hover {
-  color: rgb(178, 83, 83);
-  transform: scale(1.1);
+
+#heading1 h2 {
+  font-size: 50px;
 }
-#dendro:hover {
-  color: rgb(58, 156, 79);
-  transform: scale(1.1);
-}
-#geo:hover {
-  color: rgb(219, 199, 99);
-  transform: scale(1.1);
-}
-#electro:hover {
-  color: rgb(133, 91, 185);
-  transform: scale(1.1);
-}
-#cryo:hover {
-  color: rgb(148, 246, 238);
-  transform: scale(1.1);
+
+#heading1 p {
+  padding: 0px 25% 0px;
+  text-align: center;
+  font-size: 18px;
 }
 
 #vids {
@@ -112,11 +113,55 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
 }
+
+#anemoheading {
+  color: rgb(104, 170, 133);
+  font-size: 50px;
+  font-weight: bold;
+}
+#hydroheading {
+  color: rgb(47, 86, 145);
+  font-size: 50px;
+  font-weight: bold;
+}
+#pyroheading {
+  color: rgb(178, 83, 83);
+  font-size: 50px;
+  font-weight: bold;
+}
+#dendroheading {
+  color: rgb(58, 156, 79);
+  font-size: 50px;
+  font-weight: bold;
+}
+#geoheading {
+  color: rgb(219, 199, 99);
+  font-size: 50px;
+  font-weight: bold;
+}
+#electroheading {
+  color: rgb(133, 91, 185);
+  font-size: 50px;
+  font-weight: bold;
+}
+#cryoheading {
+  color: rgb(148, 246, 238);
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#vids p {
+  color: white;
+  font-size: 20px;
+  padding: 0px 15% 40px;
+}
+
 .demo1 {
   width: 85%;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-bottom: 140px;
 }
 
 .demo2 {
@@ -124,6 +169,5 @@ body {
 }
 .elements {
   width: 100%;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-bottom: 60px;
 }
