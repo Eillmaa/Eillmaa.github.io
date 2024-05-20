@@ -89,7 +89,7 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
   transform: scale(1.1);
 }
 
-#heading1 {
+#characters-heading1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -98,14 +98,25 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#heading1 h2 {
+#characters-heading1 h2 {
   font-size: 50px;
+  padding: 0px 35px 0px;
 }
 
-#heading1 p {
+#characters-heading1 p {
   padding: 0px 25% 0px;
   text-align: center;
   font-size: 18px;
+}
+#characters-heading2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#characters-heading2-img {
+  transform: rotate(180deg);
 }
 
 #vids {
@@ -170,4 +181,27 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
 .elements {
   width: 100%;
   padding-bottom: 60px;
+}
+#index-bg1 a {
+  text-decoration: none;
+  background-color: white;
+  color: rgb(32, 85, 165);
+  position: absolute;
+  top: 63%;
+  left: 47%;
+  padding: 10px 15px 11px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 5%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#about-bg {
+  position: sticky;
+}
+#about-body {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  top: 20%;
 }
