@@ -1,3 +1,4 @@
+/* The styling below is implemented to all of the webpages */
 body {
   display: grid;
   background-color: black;
@@ -61,6 +62,24 @@ body {
   padding: 0;
 }
 
+/* The styling below from here is for the Index webpage */
+
+#index-bg1 a {
+  text-decoration: none;
+  background-color: white;
+  color: rgb(32, 85, 165);
+  position: absolute;
+  top: 63%;
+  left: 47%;
+  padding: 10px 15px 11px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 5%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* The styling below from here is for the Characters webpage */
+
 #elnav {
   display: flex;
   flex-direction: column;
@@ -78,7 +97,7 @@ body {
   padding: 10px 0px 10px;
 }
 
-/* Here I amde it so that when the user hovers over the right side 
+/* Here I made it so that when the user hovers over the right side 
 navigation bar the opacity turns from 0.5 to its orginal opacity */
 #elnav img {
   opacity: 0.5;
@@ -182,19 +201,8 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
   width: 100%;
   padding-bottom: 60px;
 }
-#index-bg1 a {
-  text-decoration: none;
-  background-color: white;
-  color: rgb(32, 85, 165);
-  position: absolute;
-  top: 63%;
-  left: 47%;
-  padding: 10px 15px 11px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  border-radius: 5%;
-  font-size: 20px;
-  font-weight: bold;
-}
+
+/* The styling below from here is for the About webpage */
 
 #about-bg {
   position: sticky;
@@ -204,4 +212,11 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   position: absolute;
   top: 20%;
+}
+
+/* The styling below from here is for the Enemies webpage */
+
+.splide__slide img {
+  width: 100%;
+  height: auto;
 }
