@@ -215,6 +215,11 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
 }
 
 /* The styling below from here is for the Enemies webpage */
+#enemies-p1 {
+  display: flex;
+  height: 1000px;
+}
+
 #enemies {
   display: flex;
   align-items: center;
@@ -223,13 +228,11 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
   padding: 0 35px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .card .img img {
-  width: auto;
-  height: 500px;
+  width: 600px;
+  height: 508px;
   object-fit: cover;
 }
-
 .carousel .card {
   display: flex;
   justify-content: center;
@@ -238,24 +241,24 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
   list-style: none;
   background: rgb(210, 210, 210);
   object-fit: cover;
-  height: 650px;
+  height: 580px;
   border-radius: 7px;
   cursor: pointer;
-  scroll-snap-align:start;
+  scroll-snap-align: start;
+  padding-bottom: 25px;
 }
 .carousel :where(.card, .img) {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .wrapper .carousel {
   scroll-behavior: smooth;
   display: grid;
-  gap: 30px;
+  gap: 55px;
   grid-auto-flow: column;
   grid-auto-columns: calc((100% / 2) - 12px);
-  overflow-x:auto;
+  overflow-x: auto;
   scroll-snap-type: x mandatory;
   scrollbar-width: 0;
 }
@@ -267,6 +270,10 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
 .card span {
   padding: 0px 20% 0px;
   text-align: center;
+  font-size: 15px;
+}
+.card h2 {
+  font-size: 20px;
 }
 .wrapper i {
   top: 45%;
@@ -287,7 +294,6 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
 .wrapper i:last-child {
   right: -30px;
 }
-
 .carousel.dragging .card {
   cursor: grab;
   user-select: none;
@@ -296,10 +302,10 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
   scroll-behavior: auto;
   scroll-snap-type: none;
 }
-.carousel::-webkit-scrollbar{
+.carousel::-webkit-scrollbar {
   display: none;
 }
-.carousel.no-transition{
+.carousel.no-transition {
   scroll-behavior: auto;
 }
 
