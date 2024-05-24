@@ -215,10 +215,6 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
 }
 
 /* The styling below from here is for the Enemies webpage */
-#enemies-p1 {
-  display: flex;
-  height: 1000px;
-}
 
 #enemies {
   display: flex;
