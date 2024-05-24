@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Enemies webpage</title>
     <link rel="stylesheet" href="stylesheet.css" />
-    <link rel="script" href="script.js" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header>
@@ -23,11 +27,66 @@
         </nav>
       </div>
     </header>
-    <div id="image-slider" class="splide">
+    <main id="enemies">
+      <div class="wrapper">
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <ul class="carousel">
+          <li class="card">
+            <div class="img">
+              <img src="images/enemy - arle.png" alt="img" draggable="false" />
+            </div>
+            <h2>The Knave</h2>
+            <span>Fourth of the Fatui Harbingers</span>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img src="images/enemy - scara.png" alt="img" draggable="false" />
+            </div>
+            <h2>Shouki no Kami</h2>
+            <span
+              >An artificial divinity created using all the might of Sumeru's
+              Six Darshans</span
+            >
+          </li>
+          <li class="card">
+            <div class="img">
+              <img
+                src="images/enemy - childe.png"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+            <h2>Childe</h2>
+            <span>Eleventh of the Fatui Harbingers</span>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img
+                src="images/enemy - signora.png"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+            <h2>La Signora</h2>
+            <span>Eighth of the Fatui Harbingers</span>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img src="images/enemy - whale.png" alt="img" draggable="false" />
+            </div>
+            <h2>All-Devouring Narwhal</h2>
+            <span>A mysterious and gargantuan creature from another world</span>
+          </li>
+        </ul>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+      </div>
+    </main>
+
+    <!-- <div id="image-slider" class="splide">
       <img src="images/enemy - arle.png" height="20%" />
       <img src="images/enemy - scara.png" height="20%" />
       <img src="images/enemy - childe.png" height="20%" />
-    </div>
+    </div> -->
     <a href="#" class="btt">&#8593;</a>
   </body>
 </html>
