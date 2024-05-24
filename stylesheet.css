@@ -299,6 +299,9 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
 .carousel::-webkit-scrollbar{
   display: none;
 }
+.carousel.no-transition{
+  scroll-behavior: auto;
+}
 
 /* Below I made it so that when the screen width is smaller the images adjust */
 @media screen and (max-width: 900px) {

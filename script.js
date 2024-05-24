@@ -43,9 +43,13 @@ const dragStop = () => {
 
 const infiniteScroll = () => {
   if(carousel.scrollLeft === 0) {
-    console.log("You've reached the left end");
+    carousel.classList.add("no-transition");
+    carousel.scrollLeft = carousel.scrollWidth - (2 * carousel.offsetWidth);
+    carousel.classList.remove("no-transition");
   } else if(Math.ceil(carousel.scrollLeft) === carousel.scrollWidth - carousel.offsetWidth){
-    console.log("You've reached the right end");
+    carousel.classList.add("no-transition");
+    carousel.scrollLeft = carousel.offsetWidth;
+    carousel.classList.remove("no-transition");
   }
 }
 
