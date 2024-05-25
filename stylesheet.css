@@ -215,6 +215,151 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
 }
 
 /* The styling below from here is for the Enemies webpage */
+#enemies-desc,
+#enemies1,
+#enemies2,
+#enemies3 {
+  color: white;
+  font-size: 20px;
+}
+#enemies-desc,
+#enemies1,
+#enemies2,
+#enemies3 p {
+  padding: 0px 20% 0px;
+}
+#enemies-desc,
+#enemies1,
+#enemies2,
+#enemies3,
+#enemies {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#common-enemies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#common-enemies div {
+  background-color: rgb(210, 210, 210);
+  border-radius: 7px;
+  height: 140px;
+  width: 140px;
+  background-size: cover;
+  transition: background-image 0.5s ease-in-out;
+  margin: 20px;
+}
+
+.hilichurl {
+  background-image: url(https://wiki.hoyolab.com/_ipx/f_webp/https://bbs.hoyolab.com/hoyowiki/picture/enemy/Hilichurl%2520Fighter_icon.png);
+}
+.hilichurl:hover {
+  background-image: url(https://wiki.hoyolab.com/_ipx/f_webp/https://bbs.hoyolab.com/hoyowiki/picture/enemy/Hilichurl%2520Berserker_icon.png);
+}
+.slime {
+  background-image: url(https://wiki.hoyolab.com/_ipx/f_webp/https://bbs.hoyolab.com/hoyowiki/picture/enemy/Dendro%2520Slime_icon.png);
+}
+.slime:hover {
+  background-image: url(https://wiki.hoyolab.com/_ipx/f_webp/https://bbs.hoyolab.com/hoyowiki/picture/enemy/Electro%2520Slime_icon.png);
+}
+.fungus {
+  background-image: url(https://wiki.hoyolab.com/_ipx/f_webp/https://bbs.hoyolab.com/hoyowiki/picture/enemy/Floating%2520Hydro%2520Fungus_icon.png);
+}
+.fungus:hover {
+  background-image: url(https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/07/77454259/0b332fc89af26ece5c6402fc82cce5e5_7847006729375799267.png?x-oss-process=image%2Fformat%2Cwebp);
+}
+.specter {
+  background-image: url(https://wiki.hoyolab.com/_ipx/f_webp/https://bbs.hoyolab.com/hoyowiki/picture/enemy/Geo%2520Specter_icon.png);
+}
+.specter:hover {
+  background-image: url(https://wiki.hoyolab.com/_ipx/f_webp/https://bbs.hoyolab.com/hoyowiki/picture/enemy/Cryo%2520Specter_icon.png);
+}
+.samachurl {
+  background-image: url(https://wiki.hoyolab.com/_ipx/f_webp/https://bbs.hoyolab.com/hoyowiki/picture/enemy/Electro%2520Samachurl_icon.png);
+}
+.samachurl:hover {
+  background-image: url(https://wiki.hoyolab.com/_ipx/f_webp/https://bbs.hoyolab.com/hoyowiki/picture/enemy/Cryo%2520Samachurl_icon.png);
+}
+.whopperflower {
+  background-image: url(https://wiki.hoyolab.com/_ipx/f_webp/https://bbs.hoyolab.com/hoyowiki/picture/enemy/Pyro%2520Whopperflower_icon.png);
+}
+.whopperflower:hover {
+  background-image: url(https://wiki.hoyolab.com/_ipx/f_webp/https://bbs.hoyolab.com/hoyowiki/picture/enemy/Cryo%2520Whopperflower_icon.png);
+}
+
+/* elite enemies */
+#elite-enemies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#elite-enemies div {
+  background-color: rgb(210, 210, 210);
+  border-radius: 7px;
+  height: 140px;
+  width: 140px;
+  background-size: cover;
+  transition: background-image 0.5s ease-in-out;
+  margin: 20px;
+}
+
+.fem-erimite {
+  background-image: url(https://upload-static.hoyoverse.com/hoyolab-wiki/2023/01/19/194600931/e3ada2f7642f67aa52b067345fae5a54_6250250778103314507.png?x-oss-process=image%2Fformat%2Cwebp);
+}
+.fem-erimite:hover {
+  background-image: url(https://upload-static.hoyoverse.com/hoyolab-wiki/2023/01/19/194600931/088685fa15801b65f875acec2cbfcfac_3942669023422830372.png?x-oss-process=image%2Fformat%2Cwebp);
+}
+.male-erimite {
+  background-image: url(https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/05/1023623/5f9a54c0016a9a1c5ba5ad9e78398f10_8340549222546087070.png?x-oss-process=image%2Fformat%2Cwebp);
+}
+.male-erimite:hover {
+  background-image: url(https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/05/1023623/2511ef76a6dee1e388fea0826bade579_8432883377890915955.png?x-oss-process=image%2Fformat%2Cwebp);
+}
+.kairagi {
+  background-image: url(https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/24/77454259/20a85263633526cab2a0427c5b4781bc_6270465273275579312.png?x-oss-process=image%2Fformat%2Cwebp);
+}
+.kairagi:hover {
+  background-image: url(https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/24/77454259/87720e5cfe2d4e82201a31a8b8d46ee7_1111157407291733826.png?x-oss-process=image%2Fformat%2Cwebp);
+}
+.ruin-guard {
+  background-image: url(https://wiki.hoyolab.com/_ipx/f_webp/https://bbs.hoyolab.com/hoyowiki/picture/enemy/Ruin%2520Guard_icon.png);
+}
+.ruin-guard:hover {
+  background-image: url(https://wiki.hoyolab.com/_ipx/f_webp/https://bbs.hoyolab.com/hoyowiki/picture/enemy/Ruin%2520Hunter_icon.png);
+}
+.fatui-officer {
+  background-image: url(https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/28/35428890/aae4d48597cbdb452d7113200f76a95d_915488915911211730.png?x-oss-process=image%2Fformat%2Cwebp);
+}
+.fatui-officer:hover {
+  background-image: url(https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/28/35428890/b2c598a4fa81be8bb43ba35074d92f74_2612773732742922678.png?x-oss-process=image%2Fformat%2Cwebp);
+}
+.cecin-mage {
+  background-image: url(https://wiki.hoyolab.com/_ipx/f_webp/https://bbs.hoyolab.com/hoyowiki/picture/enemy/Fatui%2520Electro%2520Cicin%2520Mage_icon.png);
+}
+.cecin-mage:hover {
+  background-image: url(https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/15/35428890/810e7c1e11af1d9f6f558d4553ed28af_5992680956944573740.png?x-oss-process=image%2Fformat%2Cwebp);
+}
+
+/* boss enemies */
+#boss-enemies {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#boss-enemies img {
+  height: 240px;
+  width: 240px;
+  background-color: rgb(210, 210, 210);
+  border-radius: 7px;
+  margin: 20px;
+}
 
 #enemies {
   display: flex;
@@ -229,7 +374,7 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
   height: 508px;
   object-fit: cover;
 }
-.carousel .card {
+.bossSliders .card {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -243,12 +388,12 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
   scroll-snap-align: start;
   padding-bottom: 25px;
 }
-.carousel :where(.card, .img) {
+.bossSliders :where(.card, .img) {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.wrapper .carousel {
+.img-slider .bossSliders {
   scroll-behavior: smooth;
   display: grid;
   gap: 55px;
@@ -258,7 +403,7 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
   scroll-snap-type: x mandatory;
   scrollbar-width: 0;
 }
-.wrapper {
+.img-slider {
   position: relative;
   width: 100%;
   max-width: 1100px;
@@ -271,7 +416,7 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
 .card h2 {
   font-size: 20px;
 }
-.wrapper i {
+.img-slider i {
   top: 45%;
   width: 50px;
   height: 50px;
@@ -284,35 +429,35 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
   position: absolute;
   font-size: 1.3rem;
 }
-.wrapper i:first-child {
-  left: -30px;
+.img-slider i:first-child {
+  left: -37px;
 }
-.wrapper i:last-child {
-  right: -30px;
+.img-slider i:last-child {
+  right: -28px;
 }
-.carousel.dragging .card {
+.bossSliders.dragging .card {
   cursor: grab;
   user-select: none;
 }
-.carousel.dragging {
+.bossSliders.dragging {
   scroll-behavior: auto;
   scroll-snap-type: none;
 }
-.carousel::-webkit-scrollbar {
+.bossSliders::-webkit-scrollbar {
   display: none;
 }
-.carousel.no-transition {
+.bossSliders.no-transition {
   scroll-behavior: auto;
 }
 
 /* Below I made it so that when the screen width is smaller the images adjust */
 @media screen and (max-width: 900px) {
-  .wrapper .carousel {
+  .img-slider .bossSliders {
     grid-auto-columns: calc((100% / 1) - 9px);
   }
 }
 @media screen and (max-width: 600px) {
-  .wrapper .carousel {
+  .img-slider .bossSliders {
     grid-auto-columns: 100%;
   }
 }
