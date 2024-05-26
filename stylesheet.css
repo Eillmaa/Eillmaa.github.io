@@ -564,12 +564,39 @@ h2 {
 }
 
 /* Below here will be the styling for the Explore webpage */
-#region-maps {
+.region-maps {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
 }
-#region-maps img {
-  opacity: 0.8;
+.mondstadt {
+  background-image: url(images/map\ -\ m.png);
+  background-size: cover;
+  opacity: 0.6;
+  height: 800px;
+}
+#mondstadt-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 260px;
+}
+#mondstadt-info p {
+  margin: 0px 25% 0px;
+  border-radius: 7px;
+  padding: 10px;
+}
+#region-deco {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#region-deco h2 {
+  padding: 0px 30px 0px;
+  font-size: 40px;
 }
