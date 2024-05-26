@@ -61,6 +61,53 @@ body {
   margin: 0;
   padding: 0;
 }
+footer {
+  background-color: rgb(14, 14, 14);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 380px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-align: center;
+}
+footer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer div div div {
+  gap: 30px;
+  flex-direction: column;
+  padding: 0px 20px 5px;
+}
+footer div div {
+  flex-direction: row;
+  padding: 4px 18% 4px;
+}
+.footer1 img {
+  height: 50px;
+  padding-top: 15px;
+}
+.footer2 {
+  flex-direction: row;
+}
+.footer2 a {
+  text-decoration: none;
+  color: white;
+}
+.footer3 img {
+  height: 140px;
+  padding-top: 20px;
+}
+.footer4 {
+  color: rgb(113, 113, 113);
+  font-size: 13px;
+}
+.footer5 img {
+  height: 50px;
+}
 
 /* The styling below from here is for the Index webpage */
 
@@ -247,12 +294,22 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
 }
 #common-enemies div {
   background-color: rgb(210, 210, 210);
-  border-radius: 7px;
   height: 140px;
   width: 140px;
   background-size: cover;
   transition: background-image 0.5s ease-in-out;
   margin: 20px;
+  border-radius: 0px 0px 7px 7px;
+}
+#common-enemies div p {
+  margin-top: -19px;
+  background-color: rgb(210, 210, 210);
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 7px 7px 0px 0px;
+  padding: 2px 0px 2px;
 }
 
 .hilichurl {
@@ -274,7 +331,7 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
   background-image: url(https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/07/77454259/0b332fc89af26ece5c6402fc82cce5e5_7847006729375799267.png?x-oss-process=image%2Fformat%2Cwebp);
 }
 .specter {
-  background-image: url(https://wiki.hoyolab.com/_ipx/f_webp/https://bbs.hoyolab.com/hoyowiki/picture/enemy/Geo%2520Specter_icon.png);
+  background-image: url(//wiki.hoyolab.com/_ipx/f_webp/https://bbs.hoyolab.com/hoyowiki/picture/enemy/Geo%2520Specter_icon.png);
 }
 .specter:hover {
   background-image: url(https://wiki.hoyolab.com/_ipx/f_webp/https://bbs.hoyolab.com/hoyowiki/picture/enemy/Cryo%2520Specter_icon.png);
@@ -297,16 +354,25 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 #elite-enemies div {
   background-color: rgb(210, 210, 210);
-  border-radius: 7px;
+  border-radius: 0px 0px 7px 7px;
   height: 140px;
   width: 140px;
   background-size: cover;
   transition: background-image 0.5s ease-in-out;
   margin: 20px;
+}
+#elite-enemies div p {
+  margin-top: -19px;
+  background-color: rgb(210, 210, 210);
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 7px 7px 0px 0px;
+  padding: 2px 0px 2px;
 }
 
 .fem-erimite {
