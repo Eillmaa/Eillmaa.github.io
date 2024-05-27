@@ -249,15 +249,53 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
 }
 
 /* The styling below from here is for the About webpage */
-
-#about-bg {
-  position: sticky;
+.about-bg {
+  background-image: url(images/about\ -\ bg.png);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  z-index: -1;
 }
-#about-body {
+.about-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 2000px;
   color: white;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  position: absolute;
-  top: 20%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+.about-body h1 {
+  margin-top: 40px;
+  font-size: 45px;
+}
+.content-body1 {
+  margin-top: 40px;
+  margin-right: 50%;
+  background-image: url("https://genshin.hoyoverse.com/_nuxt/img/introBackground.77bb3df.png");
+  background-size: cover;
+  z-index: 1;
+  height: 350px;
+  width: 370px;
+  color: rgb(91, 64, 47);
+}
+.content-body2 {
+  margin-top: 40px;
+  margin-left: 50%;
+  background-image: url("https://genshin.hoyoverse.com/_nuxt/img/introBackground.77bb3df.png");
+  background-size: cover;
+  z-index: 1;
+  height: 350px;
+  width: 370px;
+  color: rgb(91, 64, 47);
+}
+.content-body1 div {
+  padding: 13% 33px 0px;
+}
+.content-body2 div {
+  padding: 15% 40px 0px;
 }
 
 /* The styling below from here is for the Enemies webpage */
