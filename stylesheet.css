@@ -573,22 +573,18 @@ h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
 }
-.mondstadt {
-  background-image: url(images/map\ -\ m.png);
-  background-size: cover;
-  opacity: 0.6;
-  height: 800px;
+.region-maps div {
+  transition: background-image 2s ease-in-out;
 }
-#mondstadt-info {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 260px;
+.region-info {
+  width: 700px;
+  background-color: rgba(52, 52, 52, 0.5);
+  margin-top: 11%;
+  border-radius: 50px;
+  padding: 15px;
 }
-#mondstadt-info p {
-  margin: 0px 25% 0px;
-  border-radius: 7px;
-  padding: 10px;
+.region-info p {
+  font-size: 18px;
 }
 #region-deco {
   display: flex;
@@ -599,4 +595,68 @@ h2 {
 #region-deco h2 {
   padding: 0px 30px 0px;
   font-size: 40px;
+}
+.loading-screen {
+  width: 100%;
+}
+
+.mondstadt {
+  background-image: url(images/map\ -\ mond.png);
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.mondstadt:hover {
+  background-image: url("https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200320/2020032014410864090.jpg");
+}
+.liyue {
+  background-image: url(images/map\ -\ l.png);
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.liyue:hover {
+  background-image: url("https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200320/2020032014541768485.jpg");
+}
+.inazuma {
+  background-image: url(images/map\ -\ i.png);
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.inazuma:hover {
+  background-image: url("https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20210719/2021071920203256336.jpg");
+}
+.sumeru {
+  background-image: url(images/map\ -\ s.png);
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.sumeru:hover {
+  background-image: url("https://act-webstatic.hoyoverse.com/upload/contentweb/2022/08/16/8969f683b92839ac427c875d0d742be2_4596868760376591695.jpg");
+}
+.fontaine {
+  background-image: url(images/map\ -\ f.png);
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.fontaine:hover {
+  background-image: url("https://webstatic.hoyoverse.com/upload/op-public/2023/08/10/721a74c43614d7aeb25b046cabfb57be_2232465004168336408.jpg");
 }
