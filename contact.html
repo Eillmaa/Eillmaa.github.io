@@ -20,11 +20,56 @@
           <a href="explore.html">Explore</a>
           <a href="characters.html">Characters</a>
           <a href="enemies.html">Enemies</a>
-          <a href="gameplay.html">Gameplay</a>
+          <a href="contact.html">Contact</a>
         </nav>
       </div>
     </header>
-    <a href="#" class="btt">&#8593;</a>
+    <!-- Here I made a form using web3form to receive the input -->
+    <main class="contact-main">
+      <div class="contact-form">
+        <!-- Here I added the web3form link so that I will receive whatever input is submitted -->
+        <form
+          action="https://api.web3forms.com/submit"
+          method="POST"
+          class="left-contact"
+        >
+          <div class="lcontact-title">
+            <h2>Find out more!</h2>
+            <hr />
+          </div>
+          <input
+            type="hidden"
+            name="access_key"
+            value="5da21989-5d8c-4222-b611-ff50a6c8f7a3"
+          />
+          <input
+            class="input1"
+            name="name"
+            placeholder="Your Name"
+            required
+            type="text"
+          />
+          <input
+            class="input1"
+            name="email"
+            placeholder="Your Email"
+            required
+            type="email"
+          />
+          <textarea
+            class="input1"
+            name="message"
+            required
+            placeholder="Enter your message here"
+          ></textarea>
+          <button type="submit">Submit</button>
+        </form>
+        <div class="right-contact">
+          <img src="images/xiao.png" alt="Charcater image" height="340px" />
+        </div>
+      </div>
+    </main>
+
     <footer>
       <div>
         <div>
