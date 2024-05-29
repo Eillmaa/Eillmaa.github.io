@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gaming Webpage</title>
     <link rel="stylesheet" href="stylesheet.css" />
-    <link rel="java" href="java.js" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="script-1.js" defer></script>
   </head>
   <body>
     <header>
@@ -23,19 +27,66 @@
           <a href="enemies.html">Enemies</a>
           <a href="gameplay.html">Gameplay</a>
         </nav>
+        <div>
+          <div id="socialnav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-snapchat-ghost"></a>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-reddit"></a>
+            <a href="#" class="fa fa-twitch"></a>
+            <a href="#" class="fa fa-whatsapp"></a>
+          </div>
+
+          <span id="socialnavbtn" onclick="openNav()">&#9776;</span>
+        </div>
       </div>
     </header>
-    <div id="index-bg1">
-      <img
-        id="page1"
-        src="images/home - bg.jpg"
-        alt="home screen"
-        width="100%"
-      />
-      <a href="https://genshin.hoyoverse.com/en/home" target="_blank">
-        Play Now
+
+    <div class="index-bg1"></div>
+    <!-- <div>
+      <div id="Socialnav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+        <a href="#" class="fa fa-snapchat-ghost"></a>
+        <a href="#" class="fa fa-skype"></a>
+        <a href="#" class="fa fa-android"></a>
+      </div>
+
+      <span id="socialnavbtn" onclick="openNav()">&#9776;</span>
+    </div> -->
+    <div id="play-bg">
+      <a
+        id="play-icon"
+        href="https://genshin.hoyoverse.com/en/home"
+        target="_blank"
+      >
+        <img src="images/play icon.png" height="45px" />
       </a>
+      <div>Available on multiple platforms<br />Download now!</div>
     </div>
+
+    <div class="gi-trailer">
+      <iframe
+        width="890"
+        height="500"
+        src="https://www.youtube.com/embed/TAlKhARUcoY"
+      >
+      </iframe>
+    </div>
+
     <!--I added a back to top option so it's easier for user's to get back to the top of the page-->
     <a href="#" class="btt">&#8593;</a>
     <footer>
