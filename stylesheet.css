@@ -123,8 +123,41 @@ footer div div {
   top: 0;
   position: fixed;
 }
+.hcontent1 {
+  margin: 150px 150px 150px 800px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 30px;
+  border-radius: 10px;
+  padding: 20px 10px 20px;
+  text-align: center;
+  -webkit-text-stroke: 1px #eeeeee;
+  text-shadow: 0px 4px 4px #8ab4e4;
+}
+.hcontent2 {
+  margin: 150px 800px 150px 150px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: rgba(181, 181, 181, 0.2);
+  font-size: 30px;
+  border-radius: 10px;
+  padding: 20px 10px 20px;
+  text-align: center;
+  -webkit-text-stroke: 1px #f8f8f8;
+  text-shadow: 1px 1px 4px #8ab4e4;
+}
+#hcontent1 {
+  font-size: 40px;
+}
+#hcontent2 {
+  margin: 250px 310px 0px 310px;
+  font-size: 24px;
+  background: none;
+}
+
 #play-bg {
-  height: 800px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -144,10 +177,11 @@ footer div div {
   align-items: center;
 }
 #play-bg div {
-  margin-top: 30px;
-  font-size: 25px;
+  margin-top: 55px;
+  font-size: 24px;
   -webkit-text-stroke: 1px #f8f8f8;
-  text-shadow: 0px 1px 4px #8ab4e4;
+  text-shadow: 0px 1px 3px #8ab4e4;
+  letter-spacing: 1.5px;
 }
 #play-icon {
   padding-left: 10px;
@@ -157,7 +191,7 @@ footer div div {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 150px;
+  margin-top: 350px;
   margin-bottom: 100px;
 }
 .gi-trailer iframe {
@@ -399,6 +433,7 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
   height: 450px;
   background-size: cover;
   margin-top: 50px;
+  border-radius: 30px;
 }
 #content-img2 {
   background-image: url("https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200924/2020092417575221063.jpg");
@@ -406,6 +441,7 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
   background-size: cover;
   height: 450px;
   margin-top: 50px;
+  border-radius: 30px;
 }
 #content-img3 {
   background-image: url("https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200924/2020092417575488724.jpg");
@@ -413,6 +449,7 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
   background-size: cover;
   height: 450px;
   margin-top: 50px;
+  border-radius: 30px;
 }
 #content-img4 {
   background-image: url("https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200924/2020092417575311801.jpg");
@@ -420,6 +457,7 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
   background-size: cover;
   height: 450px;
   margin-top: 50px;
+  border-radius: 30px;
 }
 #content-img5 {
   background-image: url("https://genshin.global/wp-content/uploads/2023/10/3rd-anniversary-official-wallpaper-genshin-1200x675.jpg");
@@ -427,6 +465,8 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
   background-size: cover;
   height: 450px;
   margin-top: 50px;
+  border-radius: 30px;
+  margin-bottom: 60px;
 }
 
 /* The styling below from here is for the Enemies webpage */
@@ -841,12 +881,12 @@ h2 {
   justify-content: space-evenly;
   align-items: center;
 }
-.left-contact {
+.right-contact {
   gap: 20px;
   display: flex;
   flex-direction: column;
   align-items: start;
-  margin-left: 100px;
+  margin-right: 140px;
 }
 .lcontact-title h2 {
   font-weight: 700;
@@ -862,7 +902,7 @@ h2 {
   border-radius: 10px;
   background-color: rgb(30, 105, 99);
 }
-.left-contact button {
+.right-contact button {
   cursor: pointer;
   color: white;
   background-color: rgb(30, 105, 99);
@@ -890,13 +930,13 @@ h2 {
 .input1:focus {
   border: 2px solid rgb(30, 105, 99);
 }
-.left-contact textarea {
+.right-contact textarea {
   padding-top: 15px;
   height: 150px;
   border-radius: 20px;
 }
-.right-contact {
-  margin-right: 100px;
+.left-contact {
+  margin-left: 180px;
 }
 
 /* Here I made it so that if the screen width is smaller the image is removed from the side so that the input options are displayed only */
@@ -904,7 +944,7 @@ h2 {
   .input1 {
     width: 80vw;
   }
-  .right-contact {
+  .left-contact {
     display: none;
   }
 }
