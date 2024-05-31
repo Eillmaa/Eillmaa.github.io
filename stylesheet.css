@@ -1196,7 +1196,7 @@ h2 {
   height: 5px;
   width: 130px;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: rgb(30, 105, 99);
 }
 .right-contact button {
@@ -1213,7 +1213,7 @@ h2 {
 }
 .input1 {
   border: none;
-  border-radius: 50px;
+  border-radius: 10px;
   padding-left: 25px;
   outline: none;
   width: 400px;
@@ -1230,7 +1230,7 @@ h2 {
 .right-contact textarea {
   padding-top: 15px;
   height: 150px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .left-contact {
   margin-left: 180px;
