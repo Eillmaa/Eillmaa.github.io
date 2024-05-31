@@ -632,7 +632,17 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
 }
 .char-link7 {
   background-color: rgb(148, 223, 246);
-  margin-bottom: 70px;
+  margin-bottom: 50px;
+}
+#more-char {
+  margin-bottom: 50px;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 20px 50px 25px;
+  border-radius: 50px;
+}
+#more-char a {
+  font-size: 25px;
+  font-weight: bold;
 }
 .elements {
   width: 100%;
