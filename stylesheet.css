@@ -126,7 +126,7 @@ footer div div {
 }
 .hcontent1 {
   margin: 200px 150px 150px 800px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Satisfy", cursivex;
   color: white;
   font-size: 30px;
   border-radius: 10px;
@@ -137,7 +137,7 @@ footer div div {
 }
 .hcontent2 {
   margin: 200px 800px 150px 150px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Satisfy", cursive;
   color: white;
   font-size: 30px;
   border-radius: 10px;
@@ -238,6 +238,182 @@ footer div div {
   border: solid 3px white;
   border-radius: 30px;
 }
+
+/* Here I styled the reviews for the game using flex-box so that it is more neat */
+#reviews {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.review-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 10px 0px;
+}
+.review-heading h2 {
+  color: white;
+  font-weight: 500;
+  font-size: 50px;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 0px 20px 8px;
+}
+.review-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.review-box {
+  cursor: pointer;
+  margin: 15px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.3);
+  width: 500px;
+}
+.review-box:hover {
+  transform: translateY(-15px);
+  transition: all ease 0.5s;
+}
+.review-top {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.reviewer {
+  display: flex;
+  align-items: center;
+}
+.reviewer-pfp {
+  overflow: hidden;
+  margin-right: 10px;
+}
+.reviewer-pfp img {
+  height: 60px;
+  border-radius: 50%;
+  object-position: center;
+  object-fit: cover;
+}
+.reviewer-name {
+  display: flex;
+  flex-direction: column;
+}
+.reviewer-name strong {
+  font-size: 18px;
+  color: #3677c2;
+}
+.reviewer-name span {
+  color: rgb(113, 113, 113);
+  font-size: 14px;
+}
+.checked {
+  color: rgb(248, 225, 109);
+}
+.the-review {
+  color: rgb(113, 113, 113);
+}
+@media (max-width: 1060px) {
+  .review-box {
+    padding: 10px;
+    width: 45%;
+  }
+  .hcontent1 {
+    margin-left: 30%;
+    margin-right: 2%;
+  }
+  .hcontent2 {
+    margin-right: 30%;
+    margin-left: 2%;
+  }
+  #hcontent2 {
+    margin-right: 16%;
+    margin-left: 16%;
+  }
+}
+@media (max-width: 790px) {
+  .hcontent1 {
+    font-size: 25px;
+    margin-left: 30%;
+    margin-right: 2%;
+  }
+  .hcontent2 {
+    font-size: 25px;
+    margin-right: 30%;
+    margin-left: 2%;
+  }
+  #hcontent2 {
+    margin-right: 16%;
+    margin-left: 16%;
+  }
+  .review-box {
+    padding: 10px;
+    width: 100%;
+  }
+  .review-heading h2 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 340px) {
+  .review-box {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  .review-top {
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .the-review {
+    font-size: 40px;
+  }
+  .reviewer-pfp img {
+    height: 120px;
+  }
+  .reviewer-name strong {
+    font-size: 45px;
+  }
+  .reviewer-name span {
+    font-size: 30px;
+  }
+  .the-comment {
+    font-size: 40px;
+    padding: 20px;
+  }
+  .index-bg1 {
+    height: 1950px;
+  }
+  .hcontent1 {
+    font-size: 60px;
+    margin: 50% 10% 50%;
+  }
+  .hcontent2 {
+    font-size: 60px;
+    margin: 50% 10% 50%;
+  }
+  #hcontent1 {
+    font-size: 80px;
+  }
+  .home-elements img {
+    height: 60px;
+  }
+  #hcontent2 {
+    font-size: 40px;
+    margin: 50% 10% 5%;
+  }
+  .btt {
+    padding: 25px 40px 25px;
+    font-size: 40px;
+    margin-right: 0px;
+  }
+}
 /* Here i styled a navigation bar for the game's social media accounts */
 #socialnavbtn {
   right: 0;
@@ -248,7 +424,7 @@ footer div div {
 }
 .sidenav {
   height: 100%;
-  margin-right: -80px;
+  margin-right: -85px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -476,6 +652,10 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
   margin-top: 50px;
   border-radius: 30px;
 }
+#content-img1:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 0.5s;
+}
 #content-img2 {
   background-image: url("https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200924/2020092417575221063.jpg");
   width: 700px;
@@ -483,6 +663,10 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
   height: 450px;
   margin-top: 50px;
   border-radius: 30px;
+}
+#content-img2:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 0.5s;
 }
 #content-img3 {
   background-image: url("https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200924/2020092417575488724.jpg");
@@ -492,6 +676,10 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
   margin-top: 50px;
   border-radius: 30px;
 }
+#content-img3:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 0.5s;
+}
 #content-img4 {
   background-image: url("https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200924/2020092417575311801.jpg");
   width: 700px;
@@ -499,6 +687,10 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
   height: 450px;
   margin-top: 50px;
   border-radius: 30px;
+}
+#content-img4:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 0.5s;
 }
 #content-img5 {
   background-image: url("https://genshin.global/wp-content/uploads/2023/10/3rd-anniversary-official-wallpaper-genshin-1200x675.jpg");
@@ -508,6 +700,10 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
   margin-top: 50px;
   border-radius: 30px;
   margin-bottom: 60px;
+}
+#content-img5:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 0.5s;
 }
 
 /* The styling below from here is for the Enemies webpage */
