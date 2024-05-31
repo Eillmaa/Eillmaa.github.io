@@ -520,7 +520,7 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
 }
 
 #characters-heading1 p {
-  padding: 0px 25% 0px;
+  padding: 0px 25% 40px;
   text-align: center;
   font-size: 18px;
 }
@@ -544,36 +544,50 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
   color: rgb(104, 170, 133);
   font-size: 50px;
   font-weight: bold;
+  padding: 0px 35px 0px;
+  font-family: "Satisfy", cursive;
 }
 #hydroheading {
   color: rgb(47, 86, 145);
   font-size: 50px;
   font-weight: bold;
+  padding: 0px 35px 0px;
+  font-family: "Satisfy", cursive;
 }
 #pyroheading {
   color: rgb(178, 83, 83);
   font-size: 50px;
   font-weight: bold;
+  padding: 0px 35px 0px;
+  font-family: "Satisfy", cursive;
 }
 #dendroheading {
   color: rgb(58, 156, 79);
   font-size: 50px;
   font-weight: bold;
+  padding: 0px 35px 0px;
+  font-family: "Satisfy", cursive;
 }
 #geoheading {
   color: rgb(219, 199, 99);
   font-size: 50px;
   font-weight: bold;
+  padding: 0px 35px 0px;
+  font-family: "Satisfy", cursive;
 }
 #electroheading {
   color: rgb(133, 91, 185);
   font-size: 50px;
   font-weight: bold;
+  padding: 0px 35px 0px;
+  font-family: "Satisfy", cursive;
 }
 #cryoheading {
   color: rgb(148, 246, 238);
   font-size: 50px;
   font-weight: bold;
+  padding: 0px 35px 0px;
+  font-family: "Satisfy", cursive;
 }
 
 #vids p {
@@ -584,11 +598,41 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
 
 .demo1 {
   width: 85%;
-  padding-bottom: 140px;
+  margin-bottom: 60px;
 }
-
 .demo2 {
   width: 85%;
+}
+#vids a {
+  text-decoration: none;
+  color: white;
+  padding: 20px 40px 20px;
+  border-radius: 50px;
+  font-size: 20px;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+.char-link1 {
+  background-color: rgb(30, 105, 99);
+}
+.char-link2 {
+  background-color: rgb(47, 86, 145);
+}
+.char-link3 {
+  background-color: rgb(178, 83, 83);
+}
+.char-link4 {
+  background-color: rgb(37, 118, 79);
+}
+.char-link5 {
+  background-color: rgb(219, 199, 99);
+}
+.char-link6 {
+  background-color: rgb(133, 91, 185);
+}
+.char-link7 {
+  background-color: rgb(148, 223, 246);
+  margin-bottom: 70px;
 }
 .elements {
   width: 100%;
@@ -1105,6 +1149,12 @@ h2 {
 }
 .fontaine:hover {
   background-image: url("https://webstatic.hoyoverse.com/upload/op-public/2023/08/10/721a74c43614d7aeb25b046cabfb57be_2232465004168336408.jpg");
+}
+
+.coming-soon {
+  font-size: 40px;
+  margin: 50px 0px 20px;
+  font-family: "Satisfy", cursive;
 }
 
 /* Below is the stylying for the contact webpage */
