@@ -8,7 +8,7 @@ let isDragging = false,
   startX,
   startScrollLeft;
 
-// Here it gets the number of cards that can fit in the carousel at once
+// Here it gets the number of cards that can fit in the bossSliders at once
 let cardPerview = Math.round(bossSliders.offsetWidth / firstCardWidth);
 
 bossSlidersChildrens
