@@ -761,6 +761,15 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
 }
 
 /* The styling below from here is for the Enemies webpage */
+.enemies-bg {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  background-image: linear-gradient(to bottom right, #5d5d5d, #000000);
+}
+
 #enemies-desc,
 #enemies1,
 #enemies2,
@@ -794,7 +803,7 @@ navigation bar the opacity turns from 0.5 to its orginal opacity */
 }
 #enemies-deco h1,
 h2 {
-  padding: 0px 35px 0px;
+  padding: 0px 31px 0px;
 }
 
 #common-enemies {
@@ -804,7 +813,7 @@ h2 {
   padding-top: 20px;
 }
 #common-enemies div {
-  background-color: rgb(210, 210, 210);
+  background-color: white;
   height: 140px;
   width: 140px;
   background-size: cover;
@@ -812,9 +821,13 @@ h2 {
   margin: 20px;
   border-radius: 0px 0px 7px 7px;
 }
+#common-enemies div:hover {
+  transform: scale(1.2);
+  transition: all ease-in-out 1s;
+}
 #common-enemies div p {
   margin-top: -19px;
-  background-color: rgb(210, 210, 210);
+  background-color: white;
   color: black;
   text-align: center;
   font-weight: bold;
@@ -868,7 +881,7 @@ h2 {
   padding-top: 20px;
 }
 #elite-enemies div {
-  background-color: rgb(210, 210, 210);
+  background-color: white;
   border-radius: 0px 0px 7px 7px;
   height: 140px;
   width: 140px;
@@ -876,9 +889,13 @@ h2 {
   transition: background-image 0.5s ease-in-out;
   margin: 20px;
 }
+#elite-enemies div:hover {
+  transform: scale(1.2);
+  transition: all ease-in-out 1s;
+}
 #elite-enemies div p {
   margin-top: -19px;
-  background-color: rgb(210, 210, 210);
+  background-color: white;
   color: black;
   text-align: center;
   font-weight: bold;
@@ -932,7 +949,7 @@ h2 {
   padding-top: 20px;
 }
 #boss-enemies div {
-  background-color: rgb(210, 210, 210);
+  background-color: white;
   border-radius: 0px 0px 7px 7px;
   height: 280px;
   width: 300px;
@@ -941,7 +958,7 @@ h2 {
 }
 #boss-enemies div p {
   margin-top: -19px;
-  background-color: rgb(210, 210, 210);
+  background-color: white;
   color: black;
   text-align: center;
   font-weight: bold;
@@ -952,14 +969,30 @@ h2 {
 .geovishap {
   background-image: url(images/enemy\ -\ vishap.png);
 }
+.geovishap:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.7s;
+}
 .regisvine {
   background-image: url(images/enemy\ -\ regisvine.png);
+}
+.regisvine:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.7s;
 }
 .jadeplume {
   background-image: url(images/enemy\ -\ dendro\ bird.png);
 }
+.jadeplume:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.7s;
+}
 .wolf {
   background-image: url(images/enemy\ -\ wolflord.png);
+}
+.wolf:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.7s;
 }
 
 #enemies {
@@ -984,7 +1017,7 @@ h2 {
   align-items: center;
   flex-direction: column;
   list-style: none;
-  background: rgb(210, 210, 210);
+  background: white;
   object-fit: cover;
   height: 580px;
   border-radius: 7px;
@@ -1024,7 +1057,7 @@ h2 {
   top: 45%;
   width: 50px;
   height: 50px;
-  background-color: rgb(210, 210, 210);
+  background-color: rgba(255, 255, 255, 0.6);
   box-shadow: 0 2px 4px black;
   border-radius: 50%;
   cursor: pointer;
@@ -1034,10 +1067,10 @@ h2 {
   font-size: 1.3rem;
 }
 .img-slider i:first-child {
-  left: -37px;
+  left: -40px;
 }
 .img-slider i:last-child {
-  right: -28px;
+  right: -30px;
 }
 .bossSliders.dragging .card {
   cursor: grab;
@@ -1194,14 +1227,7 @@ h2 {
   color: rgb(30, 105, 99);
   font-size: 40px;
 }
-.lcontact-title hr {
-  margin-bottom: 20px;
-  height: 5px;
-  width: 130px;
-  border: none;
-  border-radius: 5px;
-  background-color: rgb(30, 105, 99);
-}
+
 .right-contact button {
   cursor: pointer;
   color: white;
