@@ -24,7 +24,6 @@ nav a {
   padding: 0px 40px;
   padding-top: 25px;
   text-align: center;
-  font-size: large;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: none;
   text-align: center;
@@ -35,7 +34,10 @@ nav a {
 /* When user hover's their mouse over the text it increase in size a bit */
 nav a:hover {
   font-size: larger;
-  transform: scale(1.2);
+  transform: translateY(6px);
+  font-size: 26px;
+  color: #5c97db;
+  transition: ease-in-out 0.3s;
 }
 
 .btt {
